@@ -1,7 +1,7 @@
-Catalano Framework 1.6.2 road map
+catalano Framework 1.6.2 road map
 -----------------------------------------
 
-* Catalano.Imaging
+* catalano.Imaging
 
 - New: Color Card.
 - New: Hit-And-Miss Transform.
@@ -18,7 +18,7 @@ Catalano Framework 1.6.2 road map
 - Fixed: CIE Delta-E in Color Difference.
 - Fixed: RGB -> LAB -> RGB conversion.
 
-* Catalano.Genetic
+* catalano.Genetic
 
 - New: Differential Evolution.
 - New: Particle Swarm Optimization.
@@ -27,12 +27,12 @@ Catalano Framework 1.6.2 road map
 - New: Harmony Search Optimizer.
 - New: Grey Wolf Optimizer.
 
-* Catalano.MachineLearning
+* catalano.MachineLearning
 
 - New: One Hot Encoder
 - Fixed: Categorical mapping in the Dataset Classification
 
-* Catalano.Math
+* catalano.Math
 
 - New: Mixed Integer Linear Programming.
 - New: Linear Programming.

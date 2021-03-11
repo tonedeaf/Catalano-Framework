@@ -1,12 +1,12 @@
-Catalano Framework 1.6 road map
+catalano Framework 1.6 road map
 -----------------------------------------
 
-* Catalano.Core
+* catalano.Core
      - New: Concatenate in the ArraysUtil.
 
      - Added: Shuffle in the ArraysUtil.
 
-* Catalano.Image
+* catalano.Image
     - Added: toArrayGrayAsFloat.
     - Added: toArrayGrayAsInt.
     - Added: toArrayGrayAsDouble.
@@ -17,7 +17,7 @@ Catalano Framework 1.6 road map
     - Renamed: toArrayGray to toMatrixGrayAs<?>.
     - Renamed: arrayToImage to matrixToImage in FastBitmap.
 
-* Catalano.Image.Filters
+* catalano.Image.Filters
     - New: Grayscale To RGB.
     - New: Tsai Threshold.
     - New: Random Convolution.
@@ -38,11 +38,11 @@ Catalano Framework 1.6 road map
     - Fixed: Crop now is working in both coordinate system.
 
 
-* Catalano.Image.Filters.Integral
+* catalano.Image.Filters.Integral
     - New: Integral Mean.
     - New: Integral Variance.
 
-* Catalano.Image.Filters.Photometric
+* catalano.Image.Filters.Photometric
     - New: Self Quocient Image.
     - New: Weber Faces.
     - New: Multi Scale Retinex.
@@ -54,7 +54,7 @@ Catalano Framework 1.6 road map
 
     - Reworked: Difference Of Gaussian.
 
-* Catalano.Image.Texture.BinaryPattern
+* catalano.Image.Texture.BinaryPattern
     - New: Local Adaptive Ternary Pattern.
     - New: Local Gradient Coding HD.
     - New: Local Gradient Coding.
@@ -66,7 +66,7 @@ Catalano Framework 1.6 road map
     - New: Improved Local Binary Pattern.
     - New: IBinaryPattern.
 
-* Catalano.Image.Tools
+* catalano.Image.Tools
     - New: Blob Extractor.
     - New: Image Utils.
     - New: Spatial Pyramid Histogram.
@@ -81,10 +81,10 @@ Catalano Framework 1.6 road map
     - Fixed: Kernel.Decompose.
     - Fixed: RGBtoHSL in ColorConverter.
 
-* Catalano.IO
+* catalano.IO
     - Fixed: NaN values in the method ReadAsDouble().
 
-* Catalano.MachineLearning.
+* catalano.MachineLearning.
     - New: Dataset Regression.
     - Added: normalize and standartize feature.
     - Added: new ctor in Dataset Classification.
@@ -95,33 +95,33 @@ Catalano Framework 1.6 road map
 
     - Fixed: Normalization and Standartize in the DatasetClassification.
 
-* Catalano.MachineLearning.Classification
+* catalano.MachineLearning.Classification
     - New: Extreme Learning Machine.
     - New: Minimum Mean Distance.
 
-* Catalano.MachineLearning.Classification.DecisionTrees
+* catalano.MachineLearning.Classification.DecisionTrees
     - Added: Classification error in the Decision tree.
 
-* Catalano.MachineLearning.Classification.DecisionTrees.Learning
+* catalano.MachineLearning.Classification.DecisionTrees.Learning
     - Added: Split rule support in the Random Forest.
 
-* Catalano.MachineLearning.Clustering
+* catalano.MachineLearning.Clustering
     - New: KMeans.
 
-* Catalano.MachineLearning.FeatureSelection.
+* catalano.MachineLearning.FeatureSelection.
     - New: Mean Variance Feature Selection.
     - New: Random Forest Feature Selection.
     - New: Principal Components Feature Selection.
 
-* Catalano.MachineLearning.Performance
+* catalano.MachineLearning.Performance
     - New: Holdout Validation (Regression support).
     - New: Leave One Out Cross Validation (Regression support).
     - New: Regression Measure.
 
-* Catalano.MachineLearning.Regression
+* catalano.MachineLearning.Regression
     - New: Extreme Learning Machine.
 
-* Catalano.Math
+* catalano.Math
     - New: Padding Matrix.
 
     - Added: Mahalanobis in Distance.
@@ -131,25 +131,25 @@ Catalano Framework 1.6 road map
     - Fixed: MultiplyByTranspose in the Matrix.
     - Fixed: Multiply in the Matrix.
 
-* Catalano.Statistics
+* catalano.Statistics
     - Added: Covariance (for to create covariance matrix) in Tools.
 
     - Fixed: Covariance
 
-* Catalano.Statistics.Analysis
+* catalano.Statistics.Analysis
     - New: Principal Component Analysis
 
-Catalano Framework 1.5 road map
+catalano Framework 1.5 road map
 -----------------------------------------
 
 * Android Compatibility
     - Compiled against Android 2.33 (API 10). May work with newer versions.
 
-* Catalano.Core
+* catalano.Core
     - Added: Argsort in the ArraysUtil.
     - Added: Serialization in DoubleRange,FloatRange and IntRange.
 
-* Catalano.Image
+* catalano.Image
     - New: Color.
 
     - Added: getSize in the FastBitmap.
@@ -159,7 +159,7 @@ Catalano Framework 1.5 road map
 
     - Changed: ArrayList<> to List<> in BlobDetection and ICornersDetector.
 
-* Catalano.Imaging.Filters
+* catalano.Imaging.Filters
     - New: Nick Threshold.
     - New: Curve Level.
     - New: Weighted Median.
@@ -176,24 +176,24 @@ Catalano Framework 1.5 road map
     - Fixed: Distance Transform.
     - Fixed: Fourier Transform.
 
-* Catalano.Imaging.Filters.Artistic
+* catalano.Imaging.Filters.Artistic
     - New: Lut folder (Contains luts for gradient map).
     - Fixed: Gradient Map.
 
-* Catalano.Imaging.ActiveContour
+* catalano.Imaging.ActiveContour
     - New: Ovuscule.
 
-* Catalano.Imaging.Corners
+* catalano.Imaging.Corners
     - Added: ICornersFeatureDetector.
 
-* Catalano.Imaging.Corners.FREAK.
+* catalano.Imaging.Corners.FREAK.
     - Added: ICornersFeatureDetector support in Fast Retina Keypoint Detector.
     - Added: toBinary() and toHex() in Fast Retina Keypoint class.
 
-* Catalano.Imaging.Shapes
+* catalano.Imaging.Shapes
     - New: IntPolygon.
 
-* Catalano.Imaging.Tools
+* catalano.Imaging.Tools
     - New: Variation Laplacian.
     - New: Document Skew Checker.
     - New: Image Histogram.
@@ -214,26 +214,26 @@ Catalano Framework 1.5 road map
     - Fixed: Sobel Horizontal SD3x3 in the Convolution Kernel.
     - Fixed: bins in ImageStatistics now is working.
 
-* Catalano.IO
+* catalano.IO
     - New: Serialization.
     - New: CSV Parser.
 
-* Catalano.MachineLearning.Classification
+* catalano.MachineLearning.Classification
     - New: Sparse Multiclass Support Vector Machine.
     - New: Multiclass Support Vector Machine.
     - New: Sparse Support Vector Machine.
     - New: Support Vector Machine.
 
-* Catalano.MachineLearning.Classification.DecisionTree
+* catalano.MachineLearning.Classification.DecisionTree
     - New: Decision Tree.
     - New: Decision Variable.
 
-* Catalano.MachineLearning.Classification.DecisionTree.Learning
+* catalano.MachineLearning.Classification.DecisionTree.Learning
     - New: Gradient Boosting Tree.
     - New: Random Forest.
     - New: Ada Boost.
 
-* Catalano.MachineLearning
+* catalano.MachineLearning
     - New: LeaveOneOut Cross Validation.
     - New: ClassificationDataset.
     - New: Benchmark Classifier.
@@ -244,13 +244,13 @@ Catalano Framework 1.5 road map
     - New: Standartization.
     - New: Normalization.
 
-* Catalano.MachineLearning.Regression
+* catalano.MachineLearning.Regression
     - New: Gradient Boosting Tree.
     - New: Random Forest.
     - New: Regression Tree.
     - New: K Nearest Neighbours.
 
-* Catalano.Math
+* catalano.Math
     - New: Topsoe Divergence in Distance.
     - New: Taneja Divergence in Distance.
     - New: Kumar-Johnson Divergence in Distance.
@@ -276,18 +276,18 @@ Catalano Framework 1.5 road map
 
     - Fixed: FFT2 in the FourierTransform.
 
-* Catalano.Math.Distances
+* catalano.Math.Distances
     - New: Bhattacharyya distance.
     - New: ChiSquare Distance.
     - New: Intersection Distance.
 
-* Catalano.Math.Decompositions
+* catalano.Math.Decompositions
     - New: Eigenvalue Decomposition.
     - New: Cholesky Decomposition.
 
     - Added: inverse in the Singular Value Decomposition.
 
-* Catalano.Statistics
+* catalano.Statistics
     - New: Hellinger Kernel.
     - New: TStudent Kernel.
     - New: Symmetric Triangle Kernel.
@@ -307,12 +307,12 @@ Catalano Framework 1.5 road map
 
 
 
-Catalano Framework 1.4 release notes
+catalano Framework 1.4 release notes
 -----------------------------------------
 
 Version updates and fixes:
 
-* Catalano.Android.Image
+* catalano.Android.Image
     - Added: Clear method in FastBitmap.
     - Added: get; setCoordinateSystem. (Now you can work with X and Y coordinates or I and J like the matrix.)
     - Added: getData method.
@@ -323,17 +323,17 @@ Version updates and fixes:
 * There are directly accessing the pixels.
 ** There are using recycle internally when needs some copies.
 
-* Catalano.Core.Structs
+* catalano.Core.Structs
    - New: Binary Heap.
 
-* Catalano.Image
+* catalano.Image
    - Added: get; setCoordinateSystem.
    - Added: get; setRGBData method.
    - Added: get; setGrayData method.
 
    - Fixed: some constructors in FastBitmap when are loading argb images.
 
-* Catalano.Image.Filters
+* catalano.Image.Filters
    - New: Separable Convolution.
    - New: Image Pyramids.
    - New: Weber Local Descriptor.
@@ -363,7 +363,7 @@ Version updates and fixes:
    - Fixed: Gaussian Box Blur in grayscale images.
    - Fixed: Objective Fidelity was returning infinity values when occur 0 difference.
 
-* Catalano.Image.Tools
+* catalano.Image.Tools
    - New: Suk Flusser Moments.
    - New: Color Moments.
    - New: Kernel.
@@ -377,18 +377,18 @@ Version updates and fixes:
    - Added: Ultimate Eroded Points in Shape Descriptors.
    - Added: Roughness in Shape Descriptors.
 
-* Catalano.Image.Concurrent.Filters
+* catalano.Image.Concurrent.Filters
    - New: Alpha Trimmed Mean.
    - New: Fast Variance.
 
-* Catalano.Vision.Temporal
+* catalano.Vision.Temporal
    - New: Mean Background Detector.
    - New: Median Background Detector.
 
-* Catalano.MachineLearning
+* catalano.MachineLearning
    - New: K Nearest Neighbour.
 
-* Catalano.Math
+* catalano.Math
     - New: Taylor Series.
 
     - Added: reshape, isSymmetric, isEqual in Matrix.
@@ -400,33 +400,33 @@ Version updates and fixes:
     - Added: Greatest common divisor in Tools.
     - Added: new overload in Chessboard distance.
 
-* Catalano.Math.Decompositions
+* catalano.Math.Decompositions
     - New: LU Decomposition.
     - New: QR Decomposition.
     - New: Singular Value Decomposition.
 
-* Catalano.Math.Graph
+* catalano.Math.Graph
    - New: Page Rank.
    - New: Hits.
 
    - Added: isSymmetric, setStochasticMatrix, CreateStochasticMatrix in Adjacency Matrix.
 
-* Catalano.Math.Graph.Pathfinding
+* catalano.Math.Graph.Pathfinding
    - New: ANode.
    - New: NodeMap.
    - New: AStar.
 
-* Catalano.Math.Geometry
+* catalano.Math.Geometry
    - New: Discrete Curve Evolution.
 
-* Catalano.Math.Transforms
+* catalano.Math.Transforms
     - New: Fast Hilbert Transform.
 
     - Added: FFTShift, FFTShift2 in Fourier Transform.
 
     - Fixed: FFT, FFT2 in Fourier Transform. Now is working in Asymetric scaling. Removed power of 2 limitation in FFT and FFT2.
 
-* Catalano.Statistics
+* catalano.Statistics
    - New: Dissimilarity.
    - New: Approximation.
 
@@ -436,7 +436,7 @@ Version updates and fixes:
 
    - Fixed: Pearson Correlation in Tools.
 
-* Catalano.Statistics.Kernels
+* catalano.Statistics.Kernels
    - Added: Bessel.
    - Added: Circular.
    - Added: Dirichlet.
@@ -451,7 +451,7 @@ Version updates and fixes:
    - Added: Alpha Trimmed Mean in Tools.
    - Added: Sum in Tools.
 
-* Catalano.Statistics.Regression
+* catalano.Statistics.Regression
    - New: Regression Analysis.
    - New: Logarithmic Regression.
    - New: Exponential Regression.
@@ -464,39 +464,39 @@ Version updates and fixes:
 
 
 
-Catalano Framework 1.3.1 release notes
+catalano Framework 1.3.1 release notes
 -----------------------------------------
 
 
 Version updates and fixes:
 
-* Catalano.Image.Tools
+* catalano.Image.Tools
 
    - Fixed: Objective Fidelity. (Division by zero)
 
 
 
 
-Catalano Framework 1.3 release notes
+catalano Framework 1.3 release notes
 -----------------------------------------
 
 
 Version updates and fixes:
 
-* Catalano.Android.Image
+* catalano.Android.Image
 
    - Added: recycle() method.
 
-* Catalano.Core
+* catalano.Core
 
    - Added: Swap method in Double Point, Float Point and Int Point.
 
-* Catalano.Image
+* catalano.Image
    - New: Fast Graphics.
 
    - Added: Support to work with Alpha channel. (Can save image in 32 bits).
 
-* Catalano.Image.Filters
+* catalano.Image.Filters
    - New: Distance Transform.
    - New: Extract Biggest Blob.
    - New: Fast Retina Keypoint (FREAK).
@@ -551,7 +551,7 @@ Version updates and fixes:
    - Fixed: Feret diameter in Shape Descriptors(now is returning euclidean distance).
    - Fixed: Variance (Constructor was setting radius 1 all the time).
 
-* Catalano.Image.Filters.Artistic
+* catalano.Image.Filters.Artistic
 
    - New: Gradient Map.
    - New: Fake HDR.
@@ -564,15 +564,15 @@ Version updates and fixes:
    - New: Heat map.
    - New: Oil Painting.
 
-* Catalano.Image.Tools
+* catalano.Image.Tools
 
    - New: Nearest Neighbor Matrix
 
-* Catalano.Image.Shapes
+* catalano.Image.Shapes
 
     - New: IntRectangle
 
-* Catalano.Image.Concurrent.Filters
+* catalano.Image.Concurrent.Filters
    - New: Conservative Smoothing.
    - New: Log filter.
    - New: Exp fiter.
@@ -588,11 +588,11 @@ Version updates and fixes:
 
    - Added: Replicate option in Convolution.
 
-* Catalano.Math.Geometry
+* catalano.Math.Geometry
 
    - New: Ramer Douglas Peucker
 
-* Catalano.Math
+* catalano.Math
 
    - New: Matrix3x3
    - New: Vector 3
@@ -608,17 +608,17 @@ Version updates and fixes:
 
 
 
-Catalano Framework 1.2 release notes
+catalano Framework 1.2 release notes
 -----------------------------------------
 
 
 Version updates and fixes:
 
-* Catalano.Core
+* catalano.Core
    - Added: Generic sort: Keys, Values.
    - Added: New methods for conversion between float to Float object, int to Integer, etc... .
 
-* Catalano.Imaging.Concurrent.Filters
+* catalano.Imaging.Concurrent.Filters
    - New: Hysteresis Threshold.
    - New: Difference Edge Detector.
    - New: Closing.
@@ -646,7 +646,7 @@ Version updates and fixes:
    - New: Threshold.
    - New: Grayscale.
 
-* Catalano.Image
+* catalano.Image
    - New: Rosin Threshold.
    - New: FAST-9 Corners Detector.
    - New: FAST-12 Corners Detector.
@@ -685,10 +685,10 @@ Version updates and fixes:
    - Fixed: Gamma correction was hardcoded boundaries.
    - Fixed: FastBitmap (Android) is mutable when you load a bitmap non mutable.
 
-* Catalano.MachineLearning
+* catalano.MachineLearning
    - New: KMeans.
 
-* Catalano.Math
+* catalano.Math
   - New: Fast Fourier Transform.
   - New: Hilbert Transform.
   - New: Matrix3x3.
@@ -704,7 +704,7 @@ Version updates and fixes:
 
   - Renamed: FastMath to Approximation.
 
-* Catalano.Statistics
+* catalano.Statistics
   - General Discrete Distribution.
 
 * Android Compatibility
@@ -712,13 +712,13 @@ Version updates and fixes:
 
 
 
-Catalano Framework 1.1 release notes
+catalano Framework 1.1 release notes
 -----------------------------------------
 
 
 Version updates and fixes:
 
-* Catalano.Image
+* catalano.Image
   - New: Harris Corners Detector.
   - New: Bernsen Threshold.
   - New: Quadrilateral Transformation.
@@ -768,7 +768,7 @@ Version updates and fixes:
 
   - Documented: ConvolutionKernel(Kernels is all documented).
 
-* Catalano.Math
+* catalano.Math
   - New: FastMath: Support Low and High precisions.
   - New: Geometry: Points Cloud.
   - New: Geometry: Quadrilateral Transformation Calc.
@@ -783,13 +783,13 @@ Version updates and fixes:
 
 
 
-Catalano Framework 1.0 release notes
+catalano Framework 1.0 release notes
 -----------------------------------------
 12.05.2013.    
 
 Version updates and fixes:
 
-* Catalano.Image
+* catalano.Image
   - New: Erosion, Dilatation, Opening and Closing now supports 8bpp and 24bpp
   - New: Gabor Filter
   - New: IsoData Classifier
@@ -805,25 +805,25 @@ Version updates and fixes:
 
   - Fixed: Image Statistics was working only red channel for RGB color space.
 
-* Catalano.MachineLearning
+* catalano.MachineLearning
   - New: Support Vector Machines
 
-* Catalano.Math.Functions
+* catalano.Math.Functions
   - New: Gabor
   - New: Normal
   - New: Gamma
   - New: Beta
 
-* Catalano.Math
+* catalano.Math
   - New: Methods (Max, Min, MaxIndex, MinIndex) in Matrix
   - New: Special
   - New: Constants
   - New: Method Truncated Power in Tools
 
-* Catalano.Statistics
+* catalano.Statistics
   - New: method Match Histograms in Histogram
 
-* Catalano.Statistics.Distributions
+* catalano.Statistics.Distributions
   - New: ChiSquare Distribution
   - New: Cauchy Distribution
   - New: Continuous Uniform Distribution
@@ -843,7 +843,7 @@ Version updates and fixes:
   - New: Binomial Distribution
   - New: Discrete Uniform Distribution
 
-* Catalano.Statistics.Kernels
+* catalano.Statistics.Kernels
   - New: Anova
   - New: BSpline
   - New: Cauchy
@@ -857,7 +857,7 @@ Version updates and fixes:
 
 
 
-Catalano Framework 0.8 release notes
+catalano Framework 0.8 release notes
 -----------------------------------------
 12.05.2013.    
 

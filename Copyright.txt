@@ -1,6 +1,6 @@
-The Catalano Framework
+The catalano Framework
 
-Copyright (c) 2013, Marcos Diego Catalano <diego.catalano at live.com>
+Copyright (c) 2013, Marcos Diego catalano <diego.catalano at live.com>
 
  This library is free software; you can redistribute it and/or modify it under the terms of
  the GNU Lesser General Public License as published by the Free Software Foundation; either
@@ -26,7 +26,7 @@ let me know so it can be corrected.
 
 Overall framework architecture and style was greatly inspired by AForge.NET and Accord.NET. The AForge.NET
 Framework is a copyrighted work by Andrew Kirillov. The Accord.NET Framework is a 
-copyrighted work by César Roberto de Souza. This framework (Catalano) is in no way
+copyrighted work by Cï¿½sar Roberto de Souza. This framework (catalano) is in no way
 affiliated with AForge.NET or Accord.NET, its authors or contributors.
 
 
