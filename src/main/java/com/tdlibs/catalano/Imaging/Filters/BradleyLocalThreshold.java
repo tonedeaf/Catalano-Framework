@@ -60,6 +60,7 @@ public class BradleyLocalThreshold implements IApplyInPlace{
      */
     public BradleyLocalThreshold(int windowSize, float pixelBrightnessDiff) {
         this.windowSize = windowSize;
+        this.pixelBrightnessDifferenceLimit = pixelBrightnessDiff;
     }
 
     /**
